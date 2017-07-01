@@ -8,9 +8,3 @@
 - Blog
 - Portfolio
 - Drag and drop interface
-
-### Code Example
-
-```javascript
-alert("Hi, there!");
-```
