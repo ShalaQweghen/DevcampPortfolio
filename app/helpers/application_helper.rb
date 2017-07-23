@@ -14,4 +14,8 @@ module ApplicationHelper
       content_tag(:p, "Thanks for visiting me from #{session[:source]}", class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    QweghenViewTool::Renderer.copyright("Shala Qweghen", "All rights reversed")
+  end
 end
