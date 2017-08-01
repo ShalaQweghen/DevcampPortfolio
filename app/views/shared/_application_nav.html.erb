@@ -3,11 +3,12 @@
     <h3 class="masthead-brand">Shala Qweghen</h3>
     <nav>
       <ul class="nav masthead-nav">
-        <li class="active"><%= link_to "Home", root_path, class: "nav-link" %></li>
+        <li><%= link_to "Home", root_path, class: "nav-link" %></li>
         <li><%= link_to "About", about_path, class: "nav-link" %></li>
         <li><%= link_to "Contact", contact_path, class: "nav-link" %></li>
         <li><%= link_to "Blog", blogs_path, class: "nav-link" %></li>
         <li><%= link_to "Portfolio", portfolios_path, class: "nav-link" %></li>
+        <%= login_helper("nav-link") %>
       </ul>
     </nav>
   </div>
